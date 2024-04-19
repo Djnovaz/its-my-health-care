@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Food Recipes</title>
+    <style>/* General Styles */
+    .contact-us {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.contact-us h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-us p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+    body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the box-sizing property to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set the font family and font size for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.logo{
+  padding: 0;
+}
+.logo:hover{
+  border: 0;
+  padding: 0;
+}
+.early-access-card{
+  position: relative;
+  z-index: 10;
+  height: auto;
+  width: 70%;
+  background: hsl(219, 30%, 18%);
+  margin: 200px auto 100px;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 10px 7px hsl(218, 28%, 14%);
+  text-align: center;
+  padding: 3% 5%;
+}
+
+/* Style the main content area */
+main {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+
+
+
+@media (max-width: 768px) {
+    /* Style the navigation bar for smaller screens */
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+    }
+}
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+header > .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% calc(20px + 2%);
+  align-items: center;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline;
+  padding-right: 3em;
+}
+
+a {
+  color: white;
+  padding: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  border: solid 2px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+a:visited {
+  color: white;
+}
+
+.logo {
+  padding: 0;
+}
+
+.logo:hover {
+  border: 0;
+  padding: 0;
+}
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space
+</style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header><div class="navbar">
+      <a href="#" class="logo"><img src="HClogo.png.png" alt="logo" style="width: 100px; height: 60px;"></a>
+
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Diet</a></li>
+          <li><a href="exercise.html">Blog</a></li>
+          <li><a href="signup.html">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <main>
+        <h1>Health Food Recipes</h1>
+       <article>
+    
+        <div class="recipe-container">
+            <div class="recipe">
+                <h2>Easy Chicken</h2>
+                 <video width="640" height="360" controls>
+                <source src="chicken.mp4" type="video/mp4">
+            </div>
+            <div class="recipe">
+                <h2>Oats Chilla</h2>
+                <video width="640" height="360" controls>
+                <source src="Oats Chilla.mp4" type="video/mp4">
+            </div>
+
+
+            <div class="recipe">
+                <h2>salad</h2>
+                <video width="640" height="360" controls>
+                <source src="Salad.mp4" type="video/mp4">
+            </div>
+                <div class="early-access-card"></div>
+
+                
+             <img src="illustration-stay-productive.png" alt="illustration-stay-productive">
+
+      <h2>Contact Us</h2>
+
+      <p>Have a question or comment? Send us a message and we'll get back to you as soon as possible!</p>
+
+      <div class="email-form">
+        <input type="text" placeholder="email@example.com">
+        <button>Click Me</button>
+      </div>
+    </div>
+    </main>
+</body>
+</html>

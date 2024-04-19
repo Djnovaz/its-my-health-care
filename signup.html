@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <style type="text/css">/* General Styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+/* Set the box-sizing property to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Set the font family and font size for the body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/
+/* Style the main content area */
+main {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.logo {
+  padding: 0;
+}
+
+.logo:hover {
+  border: 0;
+  padding: 0;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+header > .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% calc(20px + 2%);
+  align-items: center;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline;
+  padding-right: 3em;
+}
+
+a {
+  color: white;
+  padding: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  border: solid 2px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+a:visited {
+  color: white;
+}
+
+.logo {
+  padding: 0;
+}
+
+.logo:hover {
+  border: 0;
+  padding: 0;
+}
+h1 {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+    }
+
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #ffff4d;
+  cursor: pointer;
+</style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <a href="#" class="logo"><img src="HClogo.png.png" alt="logo" style="width: 100px; height: 60px;"></a>
+
+       <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Diet</a></li>
+          <li><a href="exercise.html">Blog</a></li>
+          <li><a href="signup.html">Sign In</a></li>
+        </ul>
+      </nav>
+  </div>
+    </header>
+    <main>
+        <h1>Signup</h1>
+        <form>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>
